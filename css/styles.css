@@ -144,6 +144,7 @@ a:focus-visible {
     font-weight: 600;
     font-size: 0.95rem;
     line-height: 1;
+    white-space: nowrap;
     cursor: pointer;
     border: 2px solid transparent;
     transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
@@ -300,7 +301,7 @@ a:focus-visible {
 }
 
 .hero__overlay {
-    margin: -120px auto 0;
+    margin: var(--space-3) auto 0;
     max-width: 720px;
     background: var(--color-surface);
     border-radius: var(--radius-lg);
@@ -577,7 +578,7 @@ a:focus-visible {
     font-family: var(--font-display);
     margin: 0;
     color: var(--color-text);
-    word-spacing: 0.2em;
+    word-spacing: 0.6em;
     font-size: 1rem;
 }
 
@@ -739,8 +740,24 @@ a:focus-visible {
         display: none;
     }
 
+    .site-header__inner {
+        gap: var(--space-2);
+        padding: 0 var(--space-2);
+    }
+
+    .site-header__brand {
+        min-width: 0;
+        flex: 1 1 auto;
+    }
+
+    .site-header__title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .hero__overlay {
-        margin-top: -60px;
+        margin-top: var(--space-2);
         padding: var(--space-3) var(--space-2);
     }
 
@@ -763,16 +780,16 @@ a:focus-visible {
         display: none;
     }
 
+    .site-header__title {
+        font-size: 0.95rem;
+    }
+
     .toc__list {
         grid-template-columns: 1fr;
     }
 
     .hero {
         padding: var(--space-2);
-    }
-
-    .hero__overlay {
-        margin-top: -30px;
     }
 }
 
