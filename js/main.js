@@ -23,7 +23,7 @@
 
     /* ----------- i18n ----------- */
 
-    var SUPPORTED_LANGS = ["en", "pt-BR", "es", "de"];
+    var SUPPORTED_LANGS = ["en", "pt-BR", "es", "de", "ko"];
     var DEFAULT_LANG = "en";
     var STORAGE_KEY = "cfm-lang";
 

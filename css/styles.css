@@ -19,8 +19,8 @@
     --color-shadow: rgba(70, 45, 20, 0.12);
 
     /* Typography */
-    --font-display: "Bowlby One", "Bungee", system-ui, -apple-system, sans-serif;
-    --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-display: "Bowlby One", "Bungee", "Noto Sans KR", system-ui, -apple-system, sans-serif;
+    --font-body: "Inter", "Noto Sans KR", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
     /* Spacing */
     --space-1: 0.5rem;
