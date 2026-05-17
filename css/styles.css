@@ -1,5 +1,5 @@
 /* ============================================================
-   Cute Flexi Maker — Parts Guide
+   FLEXIMAL — Parts Guide
    Stylesheet (organized in clearly labelled sections)
    ============================================================ */
 
@@ -9,18 +9,26 @@
    ---------------------------------------------------------- */
 :root {
     /* Colors */
-    --color-bg: #f5ecdc;
+    --color-bg: #ffffff;
     --color-surface: #ffffff;
-    --color-surface-alt: #ede2cc;
-    --color-text: #2a2118;
-    --color-text-muted: #6a5a48;
-    --color-accent: #d97e3a;
-    --color-accent-dark: #b15a1f;
-    --color-shadow: rgba(70, 45, 20, 0.12);
+    --color-surface-alt: #f8f4ff;
+    --color-text: #1c1917;
+    --color-text-muted: #78716c;
+    --color-accent: #f97316;
+    --color-accent-dark: #ea580c;
+    --color-shadow: rgba(99, 102, 241, 0.08);
+
+    /* Animal color palette */
+    --clr-coral:  #ff6b6b;
+    --clr-blue:   #339af0;
+    --clr-green:  #51cf66;
+    --clr-yellow: #ffd43b;
+    --clr-purple: #cc5de8;
+    --clr-orange: #ff922b;
 
     /* Typography */
-    --font-display: "Bowlby One", "Bungee", "Noto Sans KR", system-ui, -apple-system, sans-serif;
-    --font-body: "Inter", "Noto Sans KR", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-display: "Fredoka", "Jua", "Noto Sans KR", system-ui, -apple-system, sans-serif;
+    --font-body: "Jua", "Noto Sans KR", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
     /* Spacing */
     --space-1: 0.5rem;
@@ -189,10 +197,20 @@ a:focus-visible {
     position: sticky;
     top: 0;
     z-index: 100;
-    background: rgba(245, 236, 220, 0.95);
+    background: rgba(255, 255, 255, 0.97);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    border-bottom: 1px solid rgba(70, 45, 20, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+}
+
+.site-header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b6b, #ffd43b, #51cf66, #339af0, #cc5de8, #ff922b);
+    z-index: 1;
 }
 
 .site-header__inner {
@@ -220,6 +238,10 @@ a:focus-visible {
     font-family: var(--font-display);
     font-size: 1.15rem;
     letter-spacing: 0.5px;
+    background: linear-gradient(135deg, #ff6b6b, #cc5de8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .site-header__subtitle {
@@ -263,14 +285,14 @@ a:focus-visible {
     appearance: none;
     -webkit-appearance: none;
     background: var(--color-surface);
-    border: 1px solid rgba(70, 45, 20, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: var(--radius-sm);
     padding: 0.35rem 1.6rem 0.35rem 0.65rem;
     font: inherit;
     font-size: 0.9rem;
     color: var(--color-text);
     cursor: pointer;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'><path fill='%236a5a48' d='M1 1l5 5 5-5'/></svg>");
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'><path fill='%2378716c' d='M1 1l5 5 5-5'/></svg>");
     background-repeat: no-repeat;
     background-position: right 0.5rem center;
     background-size: 10px 7px;
@@ -322,7 +344,10 @@ a:focus-visible {
 
 .hero__title {
     font-size: clamp(2.2rem, 5vw, 3.5rem);
-    color: var(--color-accent-dark);
+    background: linear-gradient(135deg, #ff6b6b, #cc5de8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     margin: var(--space-1) 0 var(--space-2);
 }
 
@@ -353,7 +378,10 @@ a:focus-visible {
 
 .toc__title {
     font-size: 2rem;
-    color: var(--color-accent-dark);
+    background: linear-gradient(135deg, #339af0, #cc5de8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-align: center;
     margin-bottom: var(--space-3);
 }
@@ -434,13 +462,13 @@ a:focus-visible {
 
 .section__title {
     font-size: clamp(1.6rem, 3.5vw, 2.4rem);
-    color: var(--color-accent-dark);
+    color: var(--section-color, var(--color-accent-dark));
     margin-bottom: var(--space-1);
 }
 
 .section__subtitle {
     font-size: clamp(1.3rem, 3vw, 1.8rem);
-    color: var(--color-accent-dark);
+    color: var(--section-color, var(--color-accent-dark));
     margin: var(--space-5) 0 var(--space-2);
     font-family: var(--font-display);
 }
@@ -568,7 +596,7 @@ a:focus-visible {
 .symbols-key__title {
     font-family: var(--font-display);
     font-size: 1rem;
-    color: var(--color-accent-dark);
+    color: var(--section-color, var(--color-accent-dark));
     margin: 0 0 var(--space-1);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -606,7 +634,7 @@ a:focus-visible {
     align-items: flex-start;
     gap: var(--space-2);
     padding: var(--space-2) 0;
-    border-bottom: 1px dashed rgba(106, 90, 72, 0.2);
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.08);
 }
 
 .steps li::before {
@@ -670,13 +698,16 @@ a:focus-visible {
 .cta {
     text-align: center;
     padding: var(--space-6) var(--space-3);
-    background: var(--color-surface-alt);
+    background: linear-gradient(135deg, #fff4e6, #f3e8ff);
     margin-top: var(--space-5);
 }
 
 .cta__title {
     font-size: clamp(1.6rem, 3.5vw, 2.4rem);
-    color: var(--color-accent-dark);
+    background: linear-gradient(135deg, #ff922b, #cc5de8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     margin-bottom: var(--space-2);
 }
 
@@ -792,6 +823,33 @@ a:focus-visible {
         padding: var(--space-2);
     }
 }
+
+
+/* ----------------------------------------------------------
+   13. Colorful animal theme — section & TOC color cycling
+   ---------------------------------------------------------- */
+.guide .section {
+    --section-color: var(--clr-orange);
+    border-top: 4px solid var(--section-color);
+}
+.guide .section:nth-child(6n+1) { --section-color: var(--clr-coral); }
+.guide .section:nth-child(6n+2) { --section-color: var(--clr-blue); }
+.guide .section:nth-child(6n+3) { --section-color: var(--clr-green); }
+.guide .section:nth-child(6n+4) { --section-color: var(--clr-yellow); }
+.guide .section:nth-child(6n+5) { --section-color: var(--clr-purple); }
+.guide .section:nth-child(6n)   { --section-color: var(--clr-orange); }
+
+.toc__list li:nth-child(6n+1) a::before { color: var(--clr-coral); }
+.toc__list li:nth-child(6n+2) a::before { color: var(--clr-blue); }
+.toc__list li:nth-child(6n+3) a::before { color: var(--clr-green); }
+.toc__list li:nth-child(6n+4) a::before { color: var(--clr-yellow); }
+.toc__list li:nth-child(6n+5) a::before { color: var(--clr-purple); }
+.toc__list li:nth-child(6n)   a::before { color: var(--clr-orange); }
+
+.steps li:nth-child(4n+1)::before { background: var(--clr-coral); }
+.steps li:nth-child(4n+2)::before { background: var(--clr-blue); }
+.steps li:nth-child(4n+3)::before { background: var(--clr-green); }
+.steps li:nth-child(4n+4)::before { background: var(--clr-purple); }
 
 
 /* ----------------------------------------------------------
