@@ -9,7 +9,7 @@
         "section_title": "Base Animals",
         "name": "bee",
         "slug": "bee",
-        "src": "images/parts/base-animals/bee.png",
+        "src": "images\\parts\\base-animals\\bee.png",
         "page": 2
       },
       {
@@ -17,7 +17,7 @@
         "section_title": "Base Animals",
         "name": "boar",
         "slug": "boar",
-        "src": "images/parts/base-animals/boar.png",
+        "src": "images\\parts\\base-animals\\boar.png",
         "page": 2
       },
       {
@@ -25,7 +25,7 @@
         "section_title": "Base Animals",
         "name": "cat",
         "slug": "cat",
-        "src": "images/parts/base-animals/cat.png",
+        "src": "images\\parts\\base-animals\\cat.png",
         "page": 2
       },
       {
@@ -33,7 +33,7 @@
         "section_title": "Base Animals",
         "name": "caterpillar",
         "slug": "caterpillar",
-        "src": "images/parts/base-animals/caterpillar.png",
+        "src": "images\\parts\\base-animals\\caterpillar.png",
         "page": 2
       },
       {
@@ -41,7 +41,7 @@
         "section_title": "Base Animals",
         "name": "duck",
         "slug": "duck",
-        "src": "images/parts/base-animals/duck.png",
+        "src": "images\\parts\\base-animals\\duck.png",
         "page": 2
       },
       {
@@ -49,7 +49,7 @@
         "section_title": "Base Animals",
         "name": "dragon",
         "slug": "dragon",
-        "src": "images/parts/base-animals/dragon.png",
+        "src": "images\\parts\\base-animals\\dragon.png",
         "page": 2
       },
       {
@@ -57,7 +57,7 @@
         "section_title": "Base Animals",
         "name": "eagle",
         "slug": "eagle",
-        "src": "images/parts/base-animals/eagle.png",
+        "src": "images\\parts\\base-animals\\eagle.png",
         "page": 2
       },
       {
@@ -65,7 +65,7 @@
         "section_title": "Base Animals",
         "name": "elephant",
         "slug": "elephant",
-        "src": "images/parts/base-animals/elephant.png",
+        "src": "images\\parts\\base-animals\\elephant.png",
         "page": 2
       },
       {
@@ -73,7 +73,7 @@
         "section_title": "Base Animals",
         "name": "mouse",
         "slug": "mouse",
-        "src": "images/parts/base-animals/mouse.png",
+        "src": "images\\parts\\base-animals\\mouse.png",
         "page": 2
       },
       {
@@ -81,7 +81,7 @@
         "section_title": "Base Animals",
         "name": "parrot",
         "slug": "parrot",
-        "src": "images/parts/base-animals/parrot.png",
+        "src": "images\\parts\\base-animals\\parrot.png",
         "page": 2
       },
       {
@@ -89,7 +89,7 @@
         "section_title": "Base Animals",
         "name": "pig",
         "slug": "pig",
-        "src": "images/parts/base-animals/pig.png",
+        "src": "images\\parts\\base-animals\\pig.png",
         "page": 2
       },
       {
@@ -97,7 +97,7 @@
         "section_title": "Base Animals",
         "name": "snail",
         "slug": "snail",
-        "src": "images/parts/base-animals/snail.png",
+        "src": "images\\parts\\base-animals\\snail.png",
         "page": 2
       },
       {
@@ -105,7 +105,7 @@
         "section_title": "Base Animals",
         "name": "t-rex",
         "slug": "t-rex",
-        "src": "images/parts/base-animals/t-rex.png",
+        "src": "images\\parts\\base-animals\\t-rex.png",
         "page": 2
       }
     ]
@@ -120,7 +120,7 @@
         "section_title": "Heads",
         "name": "base",
         "slug": "base",
-        "src": "images/parts/heads/base.png",
+        "src": "images\\parts\\heads\\base.png",
         "page": 2
       },
       {
@@ -128,7 +128,7 @@
         "section_title": "Heads",
         "name": "bee",
         "slug": "bee",
-        "src": "images/parts/heads/bee.png",
+        "src": "images\\parts\\heads\\bee.png",
         "page": 2
       },
       {
@@ -136,7 +136,7 @@
         "section_title": "Heads",
         "name": "dragon",
         "slug": "dragon",
-        "src": "images/parts/heads/dragon.png",
+        "src": "images\\parts\\heads\\dragon.png",
         "page": 2
       },
       {
@@ -144,7 +144,7 @@
         "section_title": "Heads",
         "name": "duck",
         "slug": "duck",
-        "src": "images/parts/heads/duck.png",
+        "src": "images\\parts\\heads\\duck.png",
         "page": 2
       },
       {
@@ -152,7 +152,7 @@
         "section_title": "Heads",
         "name": "elephant",
         "slug": "elephant",
-        "src": "images/parts/heads/elephant.png",
+        "src": "images\\parts\\heads\\elephant.png",
         "page": 2
       },
       {
@@ -160,7 +160,7 @@
         "section_title": "Heads",
         "name": "parrot",
         "slug": "parrot",
-        "src": "images/parts/heads/parrot.png",
+        "src": "images\\parts\\heads\\parrot.png",
         "page": 2
       },
       {
@@ -168,7 +168,7 @@
         "section_title": "Heads",
         "name": "pig",
         "slug": "pig",
-        "src": "images/parts/heads/pig.png",
+        "src": "images\\parts\\heads\\pig.png",
         "page": 2
       },
       {
@@ -176,7 +176,7 @@
         "section_title": "Heads",
         "name": "round",
         "slug": "round",
-        "src": "images/parts/heads/round.png",
+        "src": "images\\parts\\heads\\round.png",
         "page": 2
       },
       {
@@ -184,7 +184,7 @@
         "section_title": "Heads",
         "name": "snail",
         "slug": "snail",
-        "src": "images/parts/heads/snail.png",
+        "src": "images\\parts\\heads\\snail.png",
         "page": 2
       },
       {
@@ -192,7 +192,7 @@
         "section_title": "Heads",
         "name": "t-rex",
         "slug": "t-rex",
-        "src": "images/parts/heads/t-rex.png",
+        "src": "images\\parts\\heads\\t-rex.png",
         "page": 2
       }
     ]
@@ -207,7 +207,7 @@
         "section_title": "Eyes",
         "name": "base",
         "slug": "base",
-        "src": "images/parts/eyes/base.png",
+        "src": "images\\parts\\eyes\\base.png",
         "page": 3
       },
       {
@@ -215,7 +215,7 @@
         "section_title": "Eyes",
         "name": "big",
         "slug": "big",
-        "src": "images/parts/eyes/big.png",
+        "src": "images\\parts\\eyes\\big.png",
         "page": 3
       },
       {
@@ -223,7 +223,7 @@
         "section_title": "Eyes",
         "name": "black",
         "slug": "black",
-        "src": "images/parts/eyes/black.png",
+        "src": "images\\parts\\eyes\\black.png",
         "page": 3
       },
       {
@@ -231,7 +231,7 @@
         "section_title": "Eyes",
         "name": "color",
         "slug": "color",
-        "src": "images/parts/eyes/color.png",
+        "src": "images\\parts\\eyes\\color.png",
         "page": 3
       },
       {
@@ -239,7 +239,7 @@
         "section_title": "Eyes",
         "name": "cute",
         "slug": "cute",
-        "src": "images/parts/eyes/cute.png",
+        "src": "images\\parts\\eyes\\cute.png",
         "page": 3
       },
       {
@@ -247,7 +247,7 @@
         "section_title": "Eyes",
         "name": "heart",
         "slug": "heart",
-        "src": "images/parts/eyes/heart.png",
+        "src": "images\\parts\\eyes\\heart.png",
         "page": 3
       },
       {
@@ -255,7 +255,7 @@
         "section_title": "Eyes",
         "name": "long",
         "slug": "long",
-        "src": "images/parts/eyes/long.png",
+        "src": "images\\parts\\eyes\\long.png",
         "page": 3
       },
       {
@@ -263,7 +263,7 @@
         "section_title": "Eyes",
         "name": "reptile",
         "slug": "reptile",
-        "src": "images/parts/eyes/reptile.png",
+        "src": "images\\parts\\eyes\\reptile.png",
         "page": 3
       },
       {
@@ -271,7 +271,7 @@
         "section_title": "Eyes",
         "name": "sleep",
         "slug": "sleep",
-        "src": "images/parts/eyes/sleep.png",
+        "src": "images\\parts\\eyes\\sleep.png",
         "page": 3
       },
       {
@@ -279,7 +279,7 @@
         "section_title": "Eyes",
         "name": "smily",
         "slug": "smily",
-        "src": "images/parts/eyes/smily.png",
+        "src": "images\\parts\\eyes\\smily.png",
         "page": 3
       },
       {
@@ -287,7 +287,7 @@
         "section_title": "Eyes",
         "name": "x",
         "slug": "x",
-        "src": "images/parts/eyes/x.png",
+        "src": "images\\parts\\eyes\\x.png",
         "page": 3
       }
     ]
@@ -302,7 +302,7 @@
         "section_title": "Ears",
         "name": "cat",
         "slug": "cat",
-        "src": "images/parts/ears/cat.png",
+        "src": "images\\parts\\ears\\cat.png",
         "page": 3
       },
       {
@@ -310,7 +310,7 @@
         "section_title": "Ears",
         "name": "elephant",
         "slug": "elephant",
-        "src": "images/parts/ears/elephant.png",
+        "src": "images\\parts\\ears\\elephant.png",
         "page": 3
       },
       {
@@ -318,7 +318,7 @@
         "section_title": "Ears",
         "name": "mouse",
         "slug": "mouse",
-        "src": "images/parts/ears/mouse.png",
+        "src": "images\\parts\\ears\\mouse.png",
         "page": 3
       },
       {
@@ -326,7 +326,7 @@
         "section_title": "Ears",
         "name": "pig",
         "slug": "pig",
-        "src": "images/parts/ears/pig.png",
+        "src": "images\\parts\\ears\\pig.png",
         "page": 3
       }
     ]
@@ -341,7 +341,7 @@
         "section_title": "Hats",
         "name": "cowboy",
         "slug": "cowboy",
-        "src": "images/parts/hats/cowboy.png",
+        "src": "images\\parts\\hats\\cowboy.png",
         "page": 3
       },
       {
@@ -349,7 +349,7 @@
         "section_title": "Hats",
         "name": "detective",
         "slug": "detective",
-        "src": "images/parts/hats/detective.png",
+        "src": "images\\parts\\hats\\detective.png",
         "page": 3
       }
     ]
@@ -364,7 +364,7 @@
         "section_title": "Body Segments",
         "name": "base",
         "slug": "base",
-        "src": "images/parts/body-segments/base.png",
+        "src": "images\\parts\\body-segments\\base.png",
         "page": 4
       },
       {
@@ -372,7 +372,7 @@
         "section_title": "Body Segments",
         "name": "base-small",
         "slug": "base-small",
-        "src": "images/parts/body-segments/base-small.png",
+        "src": "images\\parts\\body-segments\\base-small.png",
         "page": 4
       },
       {
@@ -380,7 +380,7 @@
         "section_title": "Body Segments",
         "name": "fur",
         "slug": "fur",
-        "src": "images/parts/body-segments/fur.png",
+        "src": "images\\parts\\body-segments\\fur.png",
         "page": 4
       },
       {
@@ -388,7 +388,7 @@
         "section_title": "Body Segments",
         "name": "flex",
         "slug": "flex",
-        "src": "images/parts/body-segments/flex.png",
+        "src": "images\\parts\\body-segments\\flex.png",
         "page": 4
       }
     ]
@@ -403,7 +403,7 @@
         "section_title": "Bottom Segments",
         "name": "bee",
         "slug": "bee",
-        "src": "images/parts/bottom-segments/bee.png",
+        "src": "images\\parts\\bottom-segments\\bee.png",
         "page": 4
       },
       {
@@ -411,7 +411,7 @@
         "section_title": "Bottom Segments",
         "name": "flex",
         "slug": "flex",
-        "src": "images/parts/bottom-segments/flex.png",
+        "src": "images\\parts\\bottom-segments\\flex.png",
         "page": 4
       },
       {
@@ -419,7 +419,7 @@
         "section_title": "Bottom Segments",
         "name": "mini-flex",
         "slug": "mini-flex",
-        "src": "images/parts/bottom-segments/mini-flex.png",
+        "src": "images\\parts\\bottom-segments\\mini-flex.png",
         "page": 4
       },
       {
@@ -427,7 +427,7 @@
         "section_title": "Bottom Segments",
         "name": "round",
         "slug": "round",
-        "src": "images/parts/bottom-segments/round.png",
+        "src": "images\\parts\\bottom-segments\\round.png",
         "page": 4
       },
       {
@@ -435,7 +435,7 @@
         "section_title": "Bottom Segments",
         "name": "snail",
         "slug": "snail",
-        "src": "images/parts/bottom-segments/snail.png",
+        "src": "images\\parts\\bottom-segments\\snail.png",
         "page": 4
       }
     ]
@@ -450,7 +450,7 @@
         "section_title": "Flexi Legs (Wings)",
         "name": "angel",
         "slug": "angel",
-        "src": "images/parts/flexi-legs/angel.png",
+        "src": "images\\parts\\flexi-legs\\angel.png",
         "page": 4
       },
       {
@@ -458,7 +458,7 @@
         "section_title": "Flexi Legs (Wings)",
         "name": "bird",
         "slug": "bird",
-        "src": "images/parts/flexi-legs/bird.png",
+        "src": "images\\parts\\flexi-legs\\bird.png",
         "page": 4
       },
       {
@@ -466,7 +466,7 @@
         "section_title": "Flexi Legs (Wings)",
         "name": "dragon",
         "slug": "dragon",
-        "src": "images/parts/flexi-legs/dragon.png",
+        "src": "images\\parts\\flexi-legs\\dragon.png",
         "page": 4
       }
     ]
@@ -481,7 +481,7 @@
         "section_title": "Flexi Tails",
         "name": "feathered",
         "slug": "feathered",
-        "src": "images/parts/flexi-tails/feathered.png",
+        "src": "images\\parts\\flexi-tails\\feathered.png",
         "page": 4
       },
       {
@@ -489,7 +489,7 @@
         "section_title": "Flexi Tails",
         "name": "dragon",
         "slug": "dragon",
-        "src": "images/parts/flexi-tails/dragon.png",
+        "src": "images\\parts\\flexi-tails\\dragon.png",
         "page": 4
       },
       {
@@ -497,7 +497,7 @@
         "section_title": "Flexi Tails",
         "name": "dino",
         "slug": "dino",
-        "src": "images/parts/flexi-tails/dino.png",
+        "src": "images\\parts\\flexi-tails\\dino.png",
         "page": 4
       }
     ]
@@ -512,7 +512,7 @@
         "section_title": "Legs",
         "name": "bee",
         "slug": "bee",
-        "src": "images/parts/legs/bee.png",
+        "src": "images\\parts\\legs\\bee.png",
         "page": 5
       },
       {
@@ -520,7 +520,7 @@
         "section_title": "Legs",
         "name": "bird",
         "slug": "bird",
-        "src": "images/parts/legs/bird.png",
+        "src": "images\\parts\\legs\\bird.png",
         "page": 5
       },
       {
@@ -528,7 +528,7 @@
         "section_title": "Legs",
         "name": "cat",
         "slug": "cat",
-        "src": "images/parts/legs/cat.png",
+        "src": "images\\parts\\legs\\cat.png",
         "page": 5
       },
       {
@@ -536,7 +536,7 @@
         "section_title": "Legs",
         "name": "caterpillar",
         "slug": "caterpillar",
-        "src": "images/parts/legs/caterpillar.png",
+        "src": "images\\parts\\legs\\caterpillar.png",
         "page": 5
       },
       {
@@ -544,7 +544,7 @@
         "section_title": "Legs",
         "name": "duck",
         "slug": "duck",
-        "src": "images/parts/legs/duck.png",
+        "src": "images\\parts\\legs\\duck.png",
         "page": 5
       },
       {
@@ -552,7 +552,7 @@
         "section_title": "Legs",
         "name": "dino",
         "slug": "dino",
-        "src": "images/parts/legs/dino.png",
+        "src": "images\\parts\\legs\\dino.png",
         "page": 5
       },
       {
@@ -560,7 +560,7 @@
         "section_title": "Legs",
         "name": "dragon",
         "slug": "dragon",
-        "src": "images/parts/legs/dragon.png",
+        "src": "images\\parts\\legs\\dragon.png",
         "page": 5
       },
       {
@@ -568,7 +568,7 @@
         "section_title": "Legs",
         "name": "elephant",
         "slug": "elephant",
-        "src": "images/parts/legs/elephant.png",
+        "src": "images\\parts\\legs\\elephant.png",
         "page": 5
       },
       {
@@ -576,7 +576,7 @@
         "section_title": "Legs",
         "name": "generic",
         "slug": "generic",
-        "src": "images/parts/legs/generic.png",
+        "src": "images\\parts\\legs\\generic.png",
         "page": 5
       },
       {
@@ -584,7 +584,7 @@
         "section_title": "Legs",
         "name": "pig",
         "slug": "pig",
-        "src": "images/parts/legs/pig.png",
+        "src": "images\\parts\\legs\\pig.png",
         "page": 5
       },
       {
@@ -592,7 +592,7 @@
         "section_title": "Legs",
         "name": "small",
         "slug": "small",
-        "src": "images/parts/legs/small.png",
+        "src": "images\\parts\\legs\\small.png",
         "page": 5
       },
       {
@@ -600,7 +600,7 @@
         "section_title": "Legs",
         "name": "raptor",
         "slug": "raptor",
-        "src": "images/parts/legs/raptor.png",
+        "src": "images\\parts\\legs\\raptor.png",
         "page": 5
       }
     ]
@@ -615,7 +615,7 @@
         "section_title": "Tails",
         "name": "bird",
         "slug": "bird",
-        "src": "images/parts/tails/bird.png",
+        "src": "images\\parts\\tails\\bird.png",
         "page": 5
       },
       {
@@ -623,7 +623,7 @@
         "section_title": "Tails",
         "name": "cat",
         "slug": "cat",
-        "src": "images/parts/tails/cat.png",
+        "src": "images\\parts\\tails\\cat.png",
         "page": 5
       },
       {
@@ -631,7 +631,7 @@
         "section_title": "Tails",
         "name": "duck",
         "slug": "duck",
-        "src": "images/parts/tails/duck.png",
+        "src": "images\\parts\\tails\\duck.png",
         "page": 5
       },
       {
@@ -639,7 +639,7 @@
         "section_title": "Tails",
         "name": "tuffed",
         "slug": "tuffed",
-        "src": "images/parts/tails/tuffed.png",
+        "src": "images\\parts\\tails\\tuffed.png",
         "page": 5
       },
       {
@@ -647,7 +647,7 @@
         "section_title": "Tails",
         "name": "mouse",
         "slug": "mouse",
-        "src": "images/parts/tails/mouse.png",
+        "src": "images\\parts\\tails\\mouse.png",
         "page": 5
       },
       {
@@ -655,7 +655,7 @@
         "section_title": "Tails",
         "name": "pig",
         "slug": "pig",
-        "src": "images/parts/tails/pig.png",
+        "src": "images\\parts\\tails\\pig.png",
         "page": 5
       },
       {
@@ -663,7 +663,7 @@
         "section_title": "Tails",
         "name": "sting",
         "slug": "sting",
-        "src": "images/parts/tails/sting.png",
+        "src": "images\\parts\\tails\\sting.png",
         "page": 5
       },
       {
@@ -671,7 +671,7 @@
         "section_title": "Tails",
         "name": "dino",
         "slug": "dino",
-        "src": "images/parts/tails/dino.png",
+        "src": "images\\parts\\tails\\dino.png",
         "page": 5
       }
     ]
@@ -686,7 +686,7 @@
         "section_title": "Accessories",
         "name": "apple",
         "slug": "apple",
-        "src": "images/parts/accessories/apple.png",
+        "src": "images\\parts\\accessories\\apple.png",
         "page": 6
       },
       {
@@ -694,7 +694,7 @@
         "section_title": "Accessories",
         "name": "bird",
         "slug": "bird",
-        "src": "images/parts/accessories/bird.png",
+        "src": "images\\parts\\accessories\\bird.png",
         "page": 6
       },
       {
@@ -702,7 +702,7 @@
         "section_title": "Accessories",
         "name": "bow",
         "slug": "bow",
-        "src": "images/parts/accessories/bow.png",
+        "src": "images\\parts\\accessories\\bow.png",
         "page": 6
       },
       {
@@ -710,7 +710,7 @@
         "section_title": "Accessories",
         "name": "bunny-ears",
         "slug": "bunny-ears",
-        "src": "images/parts/accessories/bunny-ears.png",
+        "src": "images\\parts\\accessories\\bunny-ears.png",
         "page": 6
       },
       {
@@ -718,7 +718,7 @@
         "section_title": "Accessories",
         "name": "clover",
         "slug": "clover",
-        "src": "images/parts/accessories/clover.png",
+        "src": "images\\parts\\accessories\\clover.png",
         "page": 6
       },
       {
@@ -726,7 +726,7 @@
         "section_title": "Accessories",
         "name": "crest",
         "slug": "crest",
-        "src": "images/parts/accessories/crest.png",
+        "src": "images\\parts\\accessories\\crest.png",
         "page": 6
       },
       {
@@ -734,7 +734,7 @@
         "section_title": "Accessories",
         "name": "crown",
         "slug": "crown",
-        "src": "images/parts/accessories/crown.png",
+        "src": "images\\parts\\accessories\\crown.png",
         "page": 6
       },
       {
@@ -742,7 +742,7 @@
         "section_title": "Accessories",
         "name": "egg",
         "slug": "egg",
-        "src": "images/parts/accessories/egg.png",
+        "src": "images\\parts\\accessories\\egg.png",
         "page": 6
       },
       {
@@ -750,7 +750,7 @@
         "section_title": "Accessories",
         "name": "flower",
         "slug": "flower",
-        "src": "images/parts/accessories/flower.png",
+        "src": "images\\parts\\accessories\\flower.png",
         "page": 6
       },
       {
@@ -758,7 +758,7 @@
         "section_title": "Accessories",
         "name": "heart",
         "slug": "heart",
-        "src": "images/parts/accessories/heart.png",
+        "src": "images\\parts\\accessories\\heart.png",
         "page": 6
       },
       {
@@ -766,7 +766,7 @@
         "section_title": "Accessories",
         "name": "paw",
         "slug": "paw",
-        "src": "images/parts/accessories/paw.png",
+        "src": "images\\parts\\accessories\\paw.png",
         "page": 6
       },
       {
@@ -774,7 +774,7 @@
         "section_title": "Accessories",
         "name": "shell",
         "slug": "shell",
-        "src": "images/parts/accessories/shell.png",
+        "src": "images\\parts\\accessories\\shell.png",
         "page": 6
       },
       {
@@ -782,7 +782,7 @@
         "section_title": "Accessories",
         "name": "spike",
         "slug": "spike",
-        "src": "images/parts/accessories/spike.png",
+        "src": "images\\parts\\accessories\\spike.png",
         "page": 6
       },
       {
@@ -790,7 +790,7 @@
         "section_title": "Accessories",
         "name": "spines",
         "slug": "spines",
-        "src": "images/parts/accessories/spines.png",
+        "src": "images\\parts\\accessories\\spines.png",
         "page": 6
       },
       {
@@ -798,7 +798,7 @@
         "section_title": "Accessories",
         "name": "sprout",
         "slug": "sprout",
-        "src": "images/parts/accessories/sprout.png",
+        "src": "images\\parts\\accessories\\sprout.png",
         "page": 6
       },
       {
@@ -806,7 +806,7 @@
         "section_title": "Accessories",
         "name": "star",
         "slug": "star",
-        "src": "images/parts/accessories/star.png",
+        "src": "images\\parts\\accessories\\star.png",
         "page": 6
       },
       {
@@ -814,7 +814,7 @@
         "section_title": "Accessories",
         "name": "strawberry",
         "slug": "strawberry",
-        "src": "images/parts/accessories/strawberry.png",
+        "src": "images\\parts\\accessories\\strawberry.png",
         "page": 6
       }
     ]
@@ -829,7 +829,7 @@
         "section_title": "Symbols",
         "name": "alphabet",
         "slug": "alphabet",
-        "src": "images/parts/symbols/alphabet.png",
+        "src": "images\\parts\\symbols\\alphabet.png",
         "page": 6
       }
     ]
